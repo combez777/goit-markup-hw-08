@@ -1,0 +1,39 @@
+.logo {
+  font-family: Raleway;
+  font-size: 24px;
+  font-weight: 700;
+  letter-spacing: 0.78px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+
+  @media screen and (min-width: 768px) {
+    padding-top: 26px;
+    padding-bottom: 26px;
+  }
+
+  @media screen and (min-width: 1200px) {
+    font-size: 26px;
+  }
+}
+
+.logo__footer {
+  font-family: Raleway;
+  font-size: 24px;
+  font-weight: 700;
+  letter-spacing: 0.78px;
+  @media screen and (min-width: 1200px) {
+    font-size: 26px;
+  }
+}
+
+.logo--first {
+  color: var(--first-logo-color);
+}
+
+.logo--black {
+  color: var(--secondary-logo-color);
+}
+
+.logo--white {
+  color: var(--basic-color);
+}
